@@ -17,6 +17,7 @@ export async function getStaticProps() {
   };
 }
 
+
 //SSRの場合
 /*
 context: ユーザがリクエストした情報が入ってくる
