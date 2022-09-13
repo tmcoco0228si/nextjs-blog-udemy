@@ -5,6 +5,7 @@ import utilStyle from "../styles/utils.module.css";
 import { getPostsData } from "../lib/post";
 import Head from "next/head";
 
+
 //SSGの場合の書き方 asyncで非同期処理関数としている
 export async function getStaticProps() {
   const allPostsData = getPostsData();
